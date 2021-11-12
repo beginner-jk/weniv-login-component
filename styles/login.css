@@ -1,0 +1,149 @@
+main {
+  position: relative;
+  width: 520px;
+  height: 712px;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  margin: 100px auto;
+  background: #FFFFFF;
+}
+
+.join__header {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  text-align: center;
+  padding: 20px 0 18px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.join__btn--close {
+  position: absolute;
+  top: 19px;
+  right: 21px;
+  width: 16px;
+  height: 16px;
+}
+
+.join__main {
+  padding: 26px 24px 25px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__intro {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.login-form__input {
+  width: 472px;
+  height: 50px;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0 16px;
+}
+
+.login-form__input::placeholder {
+  color: #767676;
+}
+
+.login-form__input--pw {
+  margin-bottom: 16px;
+}
+
+.login-form__state {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 4px;
+  color: #767676;
+  height: 22px;
+}
+
+.login-form__btn--persist-state {
+  width: 22px;
+  height: 22px;
+  border: none;
+  margin-right: 8px;
+  height: 24px;
+  background: url('../src/img/check-box.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+.join__register-or-find {
+  display: flex;
+  justify-content: center;
+  color: #767676;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.join__register::after {
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  content: '|';
+  margin: 0 12px;
+}
+
+.join__diaphragm {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #767676;
+  margin-bottom: 20px;
+}
+
+.join__bar {
+  width: 210px;
+  height: 1px;
+  background: #C4C4C4;
+}
+
+.join__diaphragm span {
+  margin: 0 12px;
+}
+
+.join__another-account {
+  display: block;
+  width: 472px;
+  height: 50px;
+  border: 1px solid #767676;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  color: #767676;
+  font-family: 'SpoqaHanSansNeo-Medium';
+}
+
+.join__another-account img {
+  width: 28px;
+  height: 28px;
+}
+.join__another-account p {
+  width: 420px;
+  text-align: center;
+}
+
+.join__another-account--facebook {
+  border: 1px solid #19A0FB;
+}
+
+.join__another-account--naver {
+  border: 1px solid #01BF18;
+}
+
+.join__another-account--kakao {
+  border: 1px solid #F3C94C;
+}

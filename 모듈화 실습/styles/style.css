@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* modal style */
+.modal-login {
+  display: none;
+  height: 100%;
+}
+
+.modal-login.on {
+  display: block;
+}
+
+.modal-login::after {
+  display: block;
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.modal-login .cont-form-login {
+  width: 100%;
+  max-width: 520px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  z-index: 20;
+}
+
+.form-login .label-hold::before {
+  display: inline-block;
+  content: '';
+  background: url('../images/check-box.png');
+  width: 22px;
+  height: 22px;
+}

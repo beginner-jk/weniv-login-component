@@ -34,10 +34,41 @@
   z-index: 20;
 }
 
+.form-login .label-hold {
+  cursor: pointer;
+}
+
 .form-login .label-hold::before {
   display: inline-block;
   content: '';
   background: url('../images/check-box.png');
   width: 22px;
   height: 22px;
+}
+
+.form-login .inp-hold:checked+.label-hold::before {
+  background-image: url('../images/');
+}
+
+.form-login a[class^="link"] {
+  display: inline-block;
+  margin-top: 20px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #767676;
+}
+
+.form-login .link-signup::after {
+  display: inline-block;
+  content: '|';
+  margin: 0 12px;
+}
+
+.cont-form-login .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 22px 24px;
+  box-sizing: content-box;
+  background-color: transparent;
 }
